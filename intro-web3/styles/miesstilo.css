@@ -1,0 +1,23 @@
+/* Selectores de tipo */
+ul, ol { 
+    color: pink;
+}
+
+p {
+    color:black;
+}
+
+pre {
+    background-color: coral;
+}
+
+table {color: black;}
+
+/* Selector de clase */
+.titulo {background-color: #FFA500;}
+.aside {background-color: darkblue; color: cyan;}
+
+/* Selector ID */
+#section {
+    color: white;
+}

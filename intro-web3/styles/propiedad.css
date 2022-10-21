@@ -1,0 +1,17 @@
+#titulo {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+p {
+    color: indigo;
+
+    padding: 100px 50px;
+    border: 20px solid coral;
+    border-style: double;
+
+    /* height: 200px; */
+    /* width: 150px; */
+    overflow: scroll; /*Añade una barra de desplazamiento*/
+
+}
