@@ -1,0 +1,20 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+section {
+    background-color: lime;
+}
+
+main {
+    background-color: yellow;
+    margin-top: -20px;
+}
+
+footer {
+    background-color: grey;
+}
