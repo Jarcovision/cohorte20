@@ -1,0 +1,43 @@
+
+form {
+    background-color: green;
+    display: inline-block;
+    width: 280px;
+    padding: 50px 40px 40px 40px;
+    border: solid lightskyblue;
+    border-radius: 5px; 
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;    
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    color: white;
+    padding-left: 20px;
+    font-size: smaller;
+}
+
+.campo {
+    width: 160px;
+    border: solid;
+    border-color: red;
+    margin: -5px;
+    justify-content: center;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#btn {
+    border-style: none;
+    background-color: lightgray;
+    padding: 1px 8px ;
+}

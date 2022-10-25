@@ -1,0 +1,38 @@
+body {
+    background-color:darkkhaki;
+}
+
+/* FORM STARTS */
+
+form {
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
+
+.campo {
+    width: 150px;
+}
+
+#btn {
+    width: 100%;
+    background-color:darkmagenta;
+    padding: 5px 0;
+    border: none;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+#btn:hover {
+    background-color:hotpink ;
+    color: black;
+    transform: scale(1.7);
+}
+
+/* FORM ENDS */
