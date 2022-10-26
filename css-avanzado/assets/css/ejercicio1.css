@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Patua+One&family=Raleway&family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: teal;
+}
+
+h1 {
+    font-family: 'Finger Paint', cursive;
+    color: aquamarine;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color: aquamarine;
+}
+
+.parrafo1 {
+    font-family: 'Patua One', cursive;
+    font-size: 1.5rem;
+}
+
+.parrafo2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    color:darksalmon;
+}
