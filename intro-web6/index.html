@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción Bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/css0.css">
+</head>
+<body>
+    <h1>Bootstrap 5</h1>
+
+    <!-- Tablas -->
+    <div class="container">
+        <p>Párrafo dentro de un contenedor.</p>
+    </div>
+
+    <div class="container">Tabla
+        <div class="row">
+            <div class="col uno">1</div>
+            <div class="col dos">2</div>
+            <div class="col tres">3</div>
+        </div>
+    </div>
+    
+    <div class="container text-center">
+       <div class="row">
+          <div class="col-6 tres">1 of 3</div>
+          <div class="col dos">2 of 3 (wider)</div>
+          <div class="col uno">3 of 3</div>
+       </div>
+       <div class="row">
+          <div class="col uno">1 of 3</div>
+          <div class="col dos">2 of 3 (wider)</div>            
+          <div class="col-6 tres">3 of 3</div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row justify-content-md-center">
+          <div class="col uno col-lg-2">1 of 3</div>
+          <div class="col-md-auto">Variable width content</div>
+          <div class="col tres col-lg-2">3 of 3</div>
+        </div>
+        <div class="row">
+          <div class="col tres">1 of 3</div>
+          <div class="col-md-auto">Variable width content</div>
+          <div class="col uno col-lg-2">3 of 3</div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col dos">col</div>
+        <div class="col tres">col</div>
+        <div class="col dos">col</div>
+        <div class="col tres">col</div>
+      </div>
+      <div class="row">
+        <div class="col-8">col-8</div>
+        <div class="col-4">col-4</div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-8">col-sm-8</div>
+        <div class="col-sm-4">col-sm-4</div>
+      </div>
+      <div class="row">
+        <div class="col-sm">col-sm</div>
+        <div class="col-sm">col-sm</div>
+        <div class="col-sm">col-sm</div>
+      </div>
+    </div>    
+
+    <div class="container text-center">
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+      <div class="row">
+        <div class="col-md-8">.col-md-8</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      </div>
+    
+      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+      <div class="row">
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      </div>
+    
+      <!-- Columns are always 50% wide, on mobile and desktop -->
+      <div class="row">
+        <div class="col-6">.col-6</div>
+        <div class="col-6">.col-6</div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row row-cols-2">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row row-cols-3">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row row-cols-auto">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row row-cols-4">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row row-cols-4">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col-6">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+
+    <!-- Botones -->
+  <div class="container">
+    <button class="btn btn-primary" type="submit">Button</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="button">Hola</button>
+      <button class="btn btn-outline-danger" type="button">Adiós</button>
+    </div>
+  </div>
+
+  <!-- Alertas -->
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
+
+<!-- Alerta con JS -->
+<div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Pícale, carnal</button>
+<script>
+  const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+const alert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    alert('Ya le sabes, hijo', 'success')
+  })
+}
+</script>
+
+
+
+    <script src="./bootstrap-5/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

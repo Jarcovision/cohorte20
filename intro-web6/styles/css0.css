@@ -1,0 +1,29 @@
+body {
+    background: darkcyan;
+}
+
+.container {
+    background: salmon;
+    border-top: 10px solid darkmagenta;
+    margin-top: 20px;
+}
+
+.col {
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.uno {
+    background-color: cyan;
+}
+
+.dos {
+    background-color: blanchedalmond;
+    border-top: 15px dashed black;
+
+}
+
+.tres {
+    background-color: darkgoldenrod;
+}
+
