@@ -1,6 +1,6 @@
 /* CONTROL DE FLUJO */
 // Evalúa RANGOS DE VALORES
-/*
+
 let edad = Number(prompt("Escribe tu edad"));
 
 if (edad >= 18) {
@@ -39,7 +39,7 @@ if (día === 1) {
 } else {
     document.write("Día no válido")
 }
-*/
+
 
 // OPERADOR TERNARIO (Elvis)
 let edad = 19;
