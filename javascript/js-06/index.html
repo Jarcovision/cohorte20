@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+    <style>
+        .azul {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="etiqueta1" class="azul"> -_- Ejemplo de DOM -_-</h1>
+    <p id="párrafo"> Saludos desde el DOM</p>
+    <p id="otro"> Soy otro párrafo</p>
+    <p class="azul">Lorem ipsum dolor sit amet.</p>
+    
+    <script>
+        let etiqueta = document.getElementById("etiqueta1");
+        console.log("Valor de etiqueta1" + etiqueta.innerHTML); // inner.HTML accede al contenido de la etiqueta 
+
+        let párrafo = document.getElementById("párrafo");
+        console.log("Valor de párrafo" + párrafo.innerHTML);
+
+        let p = document.getElementsByTagName("p");
+        console.log("Números de párrafos: " + p.length);
+        
+        let tag = document.getElementsByTagName("p");
+        for (let i = 0; i < tag.length; i++) {
+            console.log(`Número de párrafos: ${tag[i].innerHTML}`);
+        }
+        let azul = document.getElementsByClassName("azul");
+        for (let elemento of azul) {
+            console.log("Los azules son: " + elemento.innerHTML);
+        }
+        
+        let clase = document.getElementsByClassName("azul");
+        for (let i = 0; i < clase.length; i++) {
+            console.log(`Número de azules: ${clase[i].innerHTML}`);
+        }
+ 
+    </script>
+</body>
+</html>
