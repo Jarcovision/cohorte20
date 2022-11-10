@@ -17,7 +17,7 @@
     <p id="otro"> Soy otro párrafo</p>
     <p class="azul">Lorem ipsum dolor sit amet.</p>
     
-    <script>
+    <!-- <script>
         let etiqueta = document.getElementById("etiqueta1");
         console.log("Valor de etiqueta1" + etiqueta.innerHTML); // inner.HTML accede al contenido de la etiqueta 
 
@@ -40,7 +40,21 @@
         for (let i = 0; i < clase.length; i++) {
             console.log(`Número de azules: ${clase[i].innerHTML}`);
         }
- 
-    </script>
+        
+        <button.onclick="cambio()>"Mostrar</button>
+
+        document.write("Hola")
+
+    </script> -->
+
+<button onclick="cambiar()">Cambio</button> <br>
+<img id="imagen" src="./cat.jpeg" width="500" alt="gato">
+
+<script>
+    function cambiar() {
+        document.getElementById("imagen").src ="./cat.jpeg";
+    }
+</script>
+
 </body>
 </html>
