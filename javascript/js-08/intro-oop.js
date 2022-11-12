@@ -8,7 +8,7 @@ let persona = {  // Forma explícita de crear un objeto (es la más usual)
     apellido: "Pérez",
     nombreCompleto: function() {
         return "El nombre es " + this.nombre + " " + this.apellido;
-    };
+    }
 }
 // Spintaxis de FOR IN:  for (variable in objeto)
 for (nombrePropiedad in persona) { // nombrePropiedad es igual a i = 0
