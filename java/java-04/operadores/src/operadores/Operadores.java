@@ -7,7 +7,7 @@ public class Operadores {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		//System.out.println("--- Introduce un dato ---");
+		System.out.println("--- Introduce un dato ---");
 		//String dato = scanner.nextLine();
 		//System.out.println("El dato es: " + dato);
 	
@@ -20,6 +20,8 @@ public class Operadores {
 		System.out.println("4: División");
 		System.out.println("5: Módulo");
 		System.out.println("6: Booleans");
+		System.out.println("7: Salir");
+
 
 		
 		System.out.println("Introduzca la opción");
@@ -90,17 +92,18 @@ public class Operadores {
 			}
 			break;
 		case 7:
-			System.out.println("siete");
+			System.out.println("Bye");
 			break;
 		default:
+			break;
 		}	
 		
 		int i = 0;
-		do {
+		/*do {
 			System.out.println("Loop Do while");
 			System.out.println(numero);
-			i++; 
-		} while (numero != 99);
+			i++; */
+		} while (numero != 7);
 		
 	}
 }
