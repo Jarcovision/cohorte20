@@ -25,4 +25,10 @@ public class Animal {
 		return nombre;
 	}
 	
+	public Animal() { //Nuevo objeto VACÍO
+	}
+	
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
 }
