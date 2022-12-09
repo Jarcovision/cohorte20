@@ -9,7 +9,7 @@ console.log(frutas.length);
 frutas.push("sandía");
 console.log(frutas);
 
-//unshift() elimina el primer elemento y devuelve la nueva longitud
+//unshift() agrega un elemento al inicio  y devuelve la nueva longitud
 frutas.unshift("guanábana");
 console.log(frutas);
 
