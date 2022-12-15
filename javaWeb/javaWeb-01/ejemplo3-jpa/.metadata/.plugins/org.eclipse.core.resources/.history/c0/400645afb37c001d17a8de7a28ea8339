@@ -1,0 +1,17 @@
+package com.dermaSpa.models;
+
+
+
+public class UsuarioFormModel {
+	private 
+	
+
+	
+	
+	
+	
+}
+
+// clase para usuarios y productos, para setters y getters
+// api fetch para transformar datos a json
+
